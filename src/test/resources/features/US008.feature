@@ -6,4 +6,4 @@ Feature: Bir kullanıcı olarak ana sayfaya girdiğimde, sayfanin sağ üst böl
 
   Scenario: TC_002_US_008 kullanici ilan ekle butonunun arkaplan rengini dogrular
     Given kullanici "http://environment.kielmarketplace.nl" adresine gider
-    Then kullanici ilan ekle linkinin arkaplan renginin "#198754" oldugunu dogrular
+    Then kullanici ilan ekle linkinin arkaplan renginin "rgba(25, 135, 84, 1)" oldugunu dogrular
